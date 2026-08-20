@@ -1,0 +1,16 @@
+# Tested with Python 3.10 and CUDA 12.1.
+torch==2.2.2
+torchvision==0.17.2
+
+# CLIP ViT-B/16 backbone
+ftfy
+regex
+git+https://github.com/openai/CLIP.git
+
+# albumentations 2.x is required: the augmentation pipeline uses the
+# GaussNoise(std_range=...) API introduced in 2.0.
+albumentations>=2.0,<3.0
+opencv-python>=4.8
+numpy>=1.24,<2.0
+pandas>=2.0
+scikit-learn>=1.3
