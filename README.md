@@ -31,7 +31,7 @@ The release ships **extracted frames**, which is what the code consumes: five fr
 
 The TPO dataset is distributed on request for research purposes. Fill in the form below with your **name, affiliation, and email**; you will receive a download link to `TPO.zip`.
 
-> **[→ Request access to TPO](ADD_YOUR_GOOGLE_DRIVE_REQUEST_FORM_LINK_HERE)**
+> **[→ Request access to TPO](https://drive.google.com/file/d/1KXcDU7XDSF4X2pdn9cFJyXTkShrf1mPk/view?usp=sharing)**
 
 Unpack the archive into `data/`, so that the frames land in `data/TPO/`:
 
