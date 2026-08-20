@@ -1,4 +1,4 @@
-# TPO: Tomatoes, Potatoes, and Onions
+# Tomatoes, Potatoes, and Onions: Questioning the Need for Faces in Face Presentation Attack Detection
 
 Official repository for **"Tomatoes, Potatoes, and Onions: Questioning the Need for Faces in Face Presentation Attack Detection"**, accepted at the 6th International Workshop on Human-centric Multimedia Analysis (**HUMA '26**), ACM Multimedia 2026.
 
@@ -204,32 +204,33 @@ assets/             # figures used in this README
 ## Citation
 
 ```bibtex
-@inproceedings{ozgur2026tpo,
-  author    = {Ozgur, Guray and Boutros, Fadi and Damer, Naser},
-  title     = {Tomatoes, Potatoes, and Onions: Questioning the Need for Faces
-               in Face Presentation Attack Detection},
-  booktitle = {Proceedings of the 6th International Workshop on Human-centric
-               Multimedia Analysis (HUMA '26)},
-  year      = {2026},
-  doi       = {10.1145/3841192.3841760}
-}
+Will be updated.
 ```
 
 The detector follows FoundPAD, which should be cited alongside this work:
 
 ```bibtex
 @inproceedings{DBLP:conf/wacv/OzgurCCBRD25,
-  author    = {Ozgur, Guray and Caldeira, Eduarda and Chettaoui, Tahar and
-               Boutros, Fadi and Ramachandra, Raghavendra and Damer, Naser},
-  title     = {FoundPAD: Foundation Models Reloaded for Face Presentation
-               Attack Detection},
-  booktitle = {IEEE/CVF Winter Conference on Applications of Computer Vision
-               Workshops (WACVW)},
-  year      = {2025}
+  author       = {Guray Ozgur and
+                  Eduarda Caldeira and
+                  Tahar Chettaoui and
+                  Fadi Boutros and
+                  Raghavendra Ramachandra and
+                  Naser Damer},
+  title        = {FoundPAD: Foundation Models Reloaded for Face Presentation Attack
+                  Detection},
+  booktitle    = {{IEEE/CVF} Winter Conference on Applications of Computer Vision, {WACV}
+                  2025 - Workshops, Tucson, AZ, USA, February 28 - March 4, 2025},
+  pages        = {697--707},
+  publisher    = {{IEEE}},
+  year         = {2025},
+  url          = {https://doi.org/10.1109/WACVW65960.2025.00084},
+  doi          = {10.1109/WACVW65960.2025.00084},
+  timestamp    = {Wed, 28 May 2025 09:03:47 +0200},
+  biburl       = {https://dblp.org/rec/conf/wacv/OzgurCCBRD25.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 ```
-
----
 
 ## Ethics and privacy
 
@@ -241,4 +242,6 @@ This research work has been funded by the German Federal Ministry of Education a
 
 ## License
 
-This project is licensed under the terms of the Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license. Copyright © 2026 Fraunhofer Institute for Computer Graphics Research IGD Darmstadt.
+>This project is licensed under the terms of the **Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license.  
+Copyright (c) 2026 Fraunhofer Institute for Computer Graphics Research IGD Darmstadt  
+For more details, please take a look at the [LICENSE](./LICENSE) file.
