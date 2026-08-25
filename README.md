@@ -1,6 +1,6 @@
 # Tomatoes, Potatoes, and Onions: Questioning the Need for Faces in Face Presentation Attack Detection
 
-Official repository for **"Tomatoes, Potatoes, and Onions: Questioning the Need for Faces in Face Presentation Attack Detection"**, accepted at the 6th International Workshop on Human-centric Multimedia Analysis (**HUMA '26**), ACM Multimedia 2026.
+Official repository for **"[Tomatoes, Potatoes, and Onions: Questioning the Need for Faces in Face Presentation Attack Detection](https://arxiv.org/pdf/2608.21455)"**, accepted at the 6th International Workshop on Human-centric Multimedia Analysis (**HUMA '26**), ACM Multimedia 2026.
 
 Face presentation attack detection (PAD) is traditionally treated as a face-specific problem. This work asks whether that is necessary. We introduce **TPO**, a controlled, face-free PAD dataset of bona fide, print, and replay recordings of tomatoes, potatoes, and onions, acquired under a protocol that mirrors conventional face PAD datasets. A FoundPAD detector trained *only* on TPO, having never seen a face during PAD training, reaches **92.70% average AUC** across the four standard cross-dataset face PAD benchmarks (MSU-MFSD, CASIA-FASD, Idiap Replay-Attack, OULU-NPU), outperforming training on synthetic faces and remaining competitive with training on real face datasets.
 
@@ -204,7 +204,15 @@ assets/             # figures used in this README
 ## Citation
 
 ```bibtex
-Will be updated.
+@misc{ozgur2026tomatoespotatoesonionsquestioning,
+      title={Tomatoes, Potatoes, and Onions: Questioning the Need for Faces in Face Presentation Attack Detection}, 
+      author={Guray Ozgur and Fadi Boutros and Naser Damer},
+      year={2026},
+      eprint={2608.21455},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2608.21455}, 
+}
 ```
 
 The detector follows FoundPAD, which should be cited alongside this work:
